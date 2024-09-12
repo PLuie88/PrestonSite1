@@ -1,0 +1,55 @@
+/*
+File: Index.css
+Date: 9/11/2024
+
+GUI Assignment: HW 1Set up, GitHub and First Web Page
+Preston Luie, UMass Lowell Computer Science, Preston_Luie@student.uml.edu
+Copyright (c) 2024 by Preston. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+
+This file includes css information about formating the body text, link text & coloring, table size and coloring as well as paragraph text color.
+*/
+
+/*Aligns text to the center as well as setting the background color for the entire page, also sets the text color to black*/
+body {
+
+    text-align: center;
+    background-color: Rgb(140, 160, 160);
+    color: black
+}
+
+/*Sets the text color of linked text to white and when hovered over it becomes a shade of blue*/
+a:link {
+    color: white
+}
+
+a:hover {
+    color: rgba(0, 0, 255, 0.455)
+}
+
+/*Sets the text color in the paragraph to a shade of blue*/
+p {
+    color: rgb(33, 33, 108)
+}
+
+
+/*Sets the border of the table to be one line instead of double struck, width of the line and the color of the table*/
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid;
+    background-color: rgb(140, 160, 160);
+}
+
+/*Aligns the text in the table to the left*/
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/*the header background cover*/
+th {
+    background-color: Rgb(190, 160, 160);
+}

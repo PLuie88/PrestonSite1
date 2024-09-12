@@ -1,0 +1,65 @@
+/*
+File: Roster.css
+Date: 9/11/2024
+
+GUI Assignment: HW 1Set up, GitHub and First Web Page
+Preston Luie, UMass Lowell Computer Science, Preston_Luie@student.uml.edu
+Copyright (c) 2024 by Preston. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+
+This file includes css information about formating the body text, link text & coloring, table orientation and coloring, header colors, and image
+being set as background as well as its alignment.
+*/
+
+/*Sets the color of the background as well as loads in an image to the background. It does not repeat the image horizontally
+only vertically for aesthetic purposes, also is in center as it is more visually appealing.*/
+body {
+    text-align: left;
+    /*I took this image from my iPhone*/
+    background-image: url("/Images/Locker.jpg");
+    background-size: auto;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-color: Rgb(140, 160, 160);
+}
+
+/*Sets the text color of linked text to white and when hovered over it becomes a shade of blue*/
+a:link {
+    color: white
+}
+
+a:hover {
+    color: rgba(0, 0, 255, 0.455)
+}
+
+/*sets the location of the margins the table to the center*/
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    border: 2px solid;
+    background-color: rgb(140, 160, 160);
+}
+
+/*Aligns the text in the table to the left*/
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+/*Background color for table header*/
+th {
+    background-color: Rgb(190, 160, 160);
+}
+
+/*text color for headers h1, h3*/
+h1,
+h3 {
+    color: white
+}
