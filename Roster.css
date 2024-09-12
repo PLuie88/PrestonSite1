@@ -16,7 +16,7 @@ only vertically for aesthetic purposes, also is in center as it is more visually
 body {
     text-align: left;
     /*I took this image from my iPhone*/
-    background-image: url("/Images/Locker.jpg");
+    background-image: url("Locker.jpg");
     background-size: auto;
     background-repeat: repeat-y;
     background-position: center;
