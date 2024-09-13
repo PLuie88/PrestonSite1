@@ -1,0 +1,33 @@
+/*
+File: arsenal.css
+Date: 9/13/2024
+
+GUI Assignment: HW 1Set up, GitHub and First Web Page
+Preston Luie, UMass Lowell Computer Science, Preston_Luie@student.uml.edu
+Copyright (c) 2024 by Preston. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+
+This file includes css information about formating the body text and background, as well as aligning the paragraph text to the left and
+setting the linked text color when hovered as well as when not.
+*/
+/*Aligns text to center, sets background color, text color of body is set to black*/
+body {
+
+    text-align: center;
+    background-color: Rgb(140, 160, 160);
+    color: black
+}
+
+/*Sets the text color of linked text to white and when hovered over it becomes a shade of blue*/
+a:link {
+    color: white
+}
+
+a:hover {
+    color: rgba(0, 0, 255, 0.455)
+}
+
+/*Aligns the text to the left that is in the paragraph*/
+p {
+    text-align: left;
+}
